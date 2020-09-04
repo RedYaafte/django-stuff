@@ -1,0 +1,25 @@
+*.swp
+*.swa
+*.DS_Store
+*.pyc
+*.ipynb
+settings.py
+
+.vscode/
+.devcontainer/
+media/*
+!media/.gitkeep
+/www/
+output/
+.devcontainer/
+reporte/
+/dumps
+venv/
+
+#docker stuff
+.env
+sql_data/*
+!sql_data/.gitkeep
+nosql_data/*
+!nosql_data/.gitkeep
+db.sqlite3
