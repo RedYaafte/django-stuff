@@ -2,10 +2,10 @@ from django.db import models
 
 
 class UuId(models.Model):
-    name = models.CharField(max_length=50)
+    uuid = models.CharField(max_length=50)
 
     def __str__(self):
-        return self.name
+        return self.uuid
 
 
 class Formulary(models.Model):
