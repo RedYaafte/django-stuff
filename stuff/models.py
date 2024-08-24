@@ -1,6 +1,6 @@
 from django.db import models
 
-
+# This is a commet for test
 class UuId(models.Model):
     uuid = models.CharField(max_length=50)
 
